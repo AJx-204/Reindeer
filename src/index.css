@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+*{
+    transition: all 0.3s ease-in-out;
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 0px #ff0000;
+}
+
+.text-shadowM{
+    text-shadow: 0.5px 0.5px 0px #ff0000;
+}
+
+.text-shadowML{
+    text-shadow: 0.5px 0.5px 1px #ff000090;
+}
+
+.red-shadow{
+    text-shadow: 3px 3px 2px #ff0000;
+ }
+
+
+@media(max-width:800px){
+
+    .App-Content{
+      padding-top: 5px;
+    }
+
+}

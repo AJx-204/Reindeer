@@ -1,0 +1,15 @@
+
+.explore{
+    font-family: "Poppins" , "sans-serif ";
+}
+
+@media(max-width:450px){
+
+    .explore-NFTs-card{
+        gap: 8px;
+    }
+    .explore-menu-btn{
+        font-size: 15px;
+    }
+    
+}

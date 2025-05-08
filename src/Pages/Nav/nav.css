@@ -1,0 +1,36 @@
+
+.nav{
+    font-family: "Russo One", "sans-serif";
+}
+
+.nav-menus{
+    font-family: "Poppins" , "sans-serif ";
+}
+
+.nav-menusCol{
+    font-family: "Poppins" , "sans-serif "; 
+}
+
+
+@media(max-width:900px){
+    .nav{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width:870px){
+    .nav-menus {
+       display: none;
+    }
+    .nav-btns i{
+        display: flex;
+    }
+}
+
+@media(max-width:500px){
+    .nav{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
